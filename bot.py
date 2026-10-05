@@ -24,7 +24,7 @@ from telegram.ext import (
     filters,
 )
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
+BOT_TOKEN = os.getenv("8368224966:AAGRziJa8nzMsq3HD07qHqa79GL78pMd4mg", "").strip()
 BOT_TIMEZONE = os.getenv("BOT_TIMEZONE", "Asia/Kolkata")
 SPAM_LIMIT = max(2, int(os.getenv("SPAM_LIMIT", "3")))
 SPAM_WINDOW = max(1, int(os.getenv("SPAM_WINDOW", "3")))
